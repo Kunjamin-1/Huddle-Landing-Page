@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo img {
+    height: 3.5vh;
+}
+
+.logo button {
+    padding: 10px 15px;
+    margin: 25px 0;
+    text-transform: capitalize;
+    border: 1px solid hsl(321, 100%, 78%);
+    border-radius: 25px;
+    letter-spacing: 2px;
+    font-size: 0.78em;
+    background-color: transparent;
+    box-shadow: 0 0 10px hsl(321deg 19.07% 51.35%);
+    color: hsl(321, 100%, 78%);
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.start h1 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    width: 80vw;
+}
+
+.start p {
+    width: 90%;
+    font-size: 0.89em;
+    margin: 15px 0;
+}
+
+.start button {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+    width: 80vw;
+    background-color: hsl(322 100% 66%);
+    color: white;
+    font-weight: 700;
+    font-size: 1.15em;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.mockup {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.mockup-img img {
+    padding: 50px 0;
+    width: 95%;
+    margin: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.number-info {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.text-info {
+    font-size: 1.2em;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.img img {
+    width: 80%;
+}
+
+.same-style h2 {
+    text-transform: capitalize;
+}
+
+.same-style p {
+    font-size: 0.85em;
+    width: 85%;
+}
+
+.grow-wave-start .phone-wave-start{
+    background-image: url(images/bg-section-top-mobile-1.svg);
+    height: 15vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grow-together {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    text-align: center;
+    background-color: hsl(207 100% 98%);
+}
+
+.grow-info {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.grow-wave-end .phone-wave-end {
+    background-image: url(images/bg-section-bottom-mobile-2.svg);
+    height: 12vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flowing-conversation {
+    display: flex;
+    margin: 15% 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.flowing-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.user-wave-start .user-phone-wave-start {
+    height: 12vh;
+    width: 100%;
+    background-image: url(images/bg-section-top-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.your-user {
+    background-color: hsl(207 100% 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    gap: 50px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user-wave-end .user-phone-wave-end {
+    height: 12vh;
+    width: 100%;
+    background-image: url(images/bg-section-bottom-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-end {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin: 80px 0;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main-end button {
+    padding: 20px 55px;
+    font-size: 1.1rem;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(322 100% 66%);
+    border-radius: 50px;
+}
+
+.footer-wave-start .footer-phone-wave-start {
+    background-image: url(images/bg-footer-top-mobile.svg);
+    height: 6vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer-detail {
+    background-color: hsl(192 100% 9%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+    gap: 80px;
+
+}
+
+.footer-detail .news-letter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news-letter h4 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.feedback input{
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+}
+.feedback button {
+    align-self: flex-end;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    background-color: hsl(322 100% 66%);
+    color: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.foot-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;    
+}
+
+.huddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.social-media ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
